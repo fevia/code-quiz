@@ -6,7 +6,7 @@ const answerButtonsElement = document.getElementById('answer-buttons')
 
 let shuffledQuestions, currentQuestionIndex
 
-var timer = 100;
+var timer = 60;
 
 startButton.addEventListener('click', startGame)
 nextButton.addEventListener('click', () => {
@@ -52,7 +52,7 @@ function resetState(){
 }
 
 function selectAnswer(e){
-    // timer = 100;
+    // timer = 60;
     const selectedButton = e.target
     const correct = selectedButton.dataset.correct
     setStatusClass(document.body, correct)
@@ -140,7 +140,7 @@ const questions = [
 
 function timer001(){
     timer = timer - 1;
-    if (timer < 100){
+    if (timer < 60){
         time001.innerHTML = timer;
     }
 

@@ -1,6 +1,7 @@
 *, *::before, *::after {
     box-sizing: border-box;
     font-family: 'Courier New', Courier, monospace;
+    padding: 10px 20px
 }
 
 :root {
@@ -36,6 +37,7 @@ body.wrong {
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 50px 2px;
+    text-align: center;
 }
 
 .btn-grid {
@@ -81,4 +83,13 @@ body.wrong {
 
 .hide{
     display: none;
+}
+
+hr {
+    border: none;
+    border-top: 3px double #333;
+    color: #333;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
 }
