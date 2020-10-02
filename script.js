@@ -88,6 +88,51 @@ const questions = [
             { text: '40', correct: true },
             { text: '200', correct: false}
         ]
+    },
+    {
+        question:' Which is the only food that melts at body temperature? ',
+        answers: [
+            { text: 'butter', correct: false },
+            { text: 'chocolate', correct: true },
+            { text: 'cream cheese', correct: false },
+            { text: 'lard', correct: false}
+        ]
+    },
+    {
+        question:' Traditional Italian pesto is made from basil, olive oil, and which nut? ',
+        answers: [
+            { text: 'walnut', correct: false },
+            { text: 'pine nut', correct: true },
+            { text: 'almond', correct: false },
+            { text: 'cashew', correct: false}
+        ]
+    },
+    {
+        question:' 7 + 7 ÷ 7 + 7 x 7 - 7 ',
+        answers: [
+            { text: '00', correct: false },
+            { text: '08', correct: false },
+            { text: '56', correct: true },
+            { text: '50', correct: false}
+        ]
+    },
+    {
+        question:' I am an odd number. Take away one letter and I become even. What number am I? ',
+        answers: [
+            { text: 'Eleven', correct: false },
+            { text: 'Three', correct: false },
+            { text: 'Seven', correct: true },
+            { text: 'Five', correct: false}
+        ]
+    },
+    {
+        question:' What is the resulting flavor when chocolate is added to coffee?',
+        answers: [
+            { text: 'cappuccino', correct: false },
+            { text: 'cocoa', correct: false },
+            { text: 'latte', correct: false },
+            { text: 'mocha', correct: true}
+        ]
     }
 ]
 
